@@ -1,21 +1,51 @@
 {
   "name": "myfirstapp",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-firebase/app": "^21.2.0",
+    "@react-native-firebase/storage": "^21.2.0",
+    "@react-native-picker/picker": "^2.7.5",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@react-navigation/stack": "^6.4.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.1",
     "expo": "~51.0.28",
+    "expo-av": "~14.0.7",
+    "expo-dev-client": "~4.0.28",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.14.1",
+    "link": "^2.1.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-audio-recorder-player": "^3.6.12",
+    "react-native-call-log": "^2.1.2",
+    "react-native-callkeep": "^4.3.14",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-phone-call": "^1.2.0",
+    "react-native-picker-select": "^9.3.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-svg": "15.2.0",
+    "react-native-toast-message": "^2.2.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.25.9",
+    "react-native-call-detection": "^1.9.0"
   },
   "private": true
 }
